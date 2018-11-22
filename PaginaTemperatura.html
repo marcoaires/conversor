@@ -35,7 +35,9 @@
                             <td><b>Temperatura: </b></td>
                         </tr>
                         <tr>
-                            <td><input type="text" id="input-temperatura" placeholder="Insira Temperatura a Converter" /></td>
+                            <td>
+                                <input id="input-temperatura" type="number" placeholder="1" step="1"/>
+                            </td>
                         </tr>
                         <tr></tr><tr></tr><tr></tr>
                         <tr>
@@ -59,7 +61,6 @@
                             </td>
                             <td>
                                 <select id="unidades-temperatura-para">
-                                    <option value="c">Grau Celsius (°C)</option>
                                     <option value="f">Grau Fahrenheit (°F)</option>
                                     <option value="k">Grau Kelvin (K)</option>
                                     <option value="n">Grau Newton (N)</option>
@@ -67,6 +68,7 @@
                                     <option value="re">Grau Réaumur (°Ré)</option>
                                     <option value="ro">Grau RØmer (°RØ)</option>
                                     <option value="de">Grau Delisle (°D)</option>
+                                    <option value="c">Grau Celsius (°C)</option>
                                 </select>
                             </td>
                         </tr>
@@ -76,7 +78,10 @@
                                 <input id="btnCalculoPeso" class="nossosbotoes" type="button" value="Converter" onclick="convert()"/>
                             </td>
                         </tr>
-                        <tr><td><h3>Resultado:</h3></td><td><input id="output" style="display:none" /></td></tr>
+                        <tr>
+                            <td><h3>Resultado:</h3></td>
+                            <td><span class="resultado-conversao"></span></td>
+                        </tr>
                     </table>
                 </fieldset>
             </div>
