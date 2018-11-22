@@ -1,0 +1,215 @@
+﻿
+#Contentcima {
+    margin:0px;
+    padding: 0px;
+    max-height: 700px;
+    background-color: grey;
+}
+#Titulo {
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Comic Sans MS';
+}
+#menuselect {
+
+    padding-left:1em;
+    max-height:50px;
+}
+
+.selecoes {
+    padding:0px 30px;
+}
+
+#principalcontentor {
+    height:100%;
+    min-height:300px;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+footer {
+    max-height: 200px;
+    background-color: grey;
+    font-family: 'Comic Sans MS';
+}
+
+#Conversao {
+    padding-top: 15px;
+    min-height: 400px;
+}
+
+#caixa {
+    background-color: white;
+    padding: 20px 20px;
+    margin: 5px 400px;
+    border: none;
+}
+
+a:link:active, a:visited:active {
+    color: white;
+}
+
+.nossosbotoes {
+    border: none;
+    color: white;
+    background-color: firebrick;
+    font-family: 'Arial';
+    font-size: 15px;
+    font-weight: bold;
+    height: 30px;
+    width: 350px;
+}
+
+#unidades-temperatura-de {
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesTempoDe']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesPesoDe']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesVolumeDe']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesAreaDe']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesComprimentoDe']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesMemoriaDe']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesAceleracaoDe']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesCargaEletricaDe']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesForcaDe']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesVelocidadeDe']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesDensidadeDe']{
+    width: 350px;
+    height: 30px;
+}
+#unidades-temperatura-para {
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesTempoPara']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesPesoPara']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesVolumePara']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesAreaPara']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesComprimentoPara']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesMemoriaPara']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesAcelaracaoPara']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesCargaEletricaPara']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesForcaPara']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesVelocidadePara']{
+    width: 350px;
+    height: 30px;
+}
+select[id='unidadesDensidadePara']{
+    width: 350px;
+    height: 30px;
+}
+
+#input-temperatura {
+    width: 350px;
+    height: 30px;
+}
+
+input[id='inputPeso']{
+    width: 350px;
+    height: 30px;
+
+}
+input[id='inputTempo']{
+    width: 350px;
+    height: 30px;
+
+}
+input[id='inputVolume']{
+    width: 350px;
+    height: 30px;
+
+}
+input[id='inputMemoria']{
+    width: 350px;
+    height: 30px;
+
+}
+input[id='inputArea']{
+    width: 350px;
+    height: 30px;
+
+}
+input[id='inputComprimento']{
+    width: 350px;
+    height: 30px;
+}
+input[id='inputAcelercao']{
+    width: 350px;
+    height: 30px;
+}
+input[id='inputCargaEletrica']{
+    width: 350px;
+    height: 30px;
+}
+input[id='inputForca']{
+    width: 350px;
+    height: 30px;
+}
+input[id='inputVelocidade']{
+    width: 350px;
+    height: 30px;
+}
+input[id='inputDensidade']{
+    width: 350px;
+    height: 30px;
+}

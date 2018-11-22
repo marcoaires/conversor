@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Um Grupo</title>
+    <link type="text/css" href="CSSlab04.css" rel="stylesheet" />
+    <script>
+        function ConverterPeso() {
+
+            var de = document.getElementById('Peso1').value;
+            var para = document.getElementById('Peso2').value;
+            var valoraconverter = parseInt(document.getElementById('inputPeso').value);
+
+            document.getElementById('outputPeso').style = "display:initial";
+
+            
+
+            if (de == "kg" && para == "g") {
+
+                var resultado = valoraconverter / 1000;
+                document.getElementById("outputPeso").value = (resultado + para + " !");
+            }
+        }
+    </script>
+</head>
+<body>
+    <header id="Contentcima">
+
+        <h1 id="Titulo">
+            <img src="Imagens/banner switch this.png" width="100%" height="100%">
+        </h1>
+            <table id="menuselect">
+            <tr>
+                <td><a href="Pagina Frontal.html"><img style="width:50px; height:40px" src="Imagens/home icon transparente.png.png" /></a></td>
+                <td class="selecoes"><a style="text-decoration:none;" href="PaginaTemperatura.html"><h3>Temperatura</h3></a></td>
+                <td class="selecoes"><a style="text-decoration:none;" href="PaginaComprimento.html"><h3>Comprimento</h3></a></td>
+                <td class="selecoes"><a style="text-decoration:none;" href="PaginaÁrea.html"><h3>Área</h3></a></td>
+                <td class="selecoes"><a style="text-decoration:none;" href="PaginaVolume.html"><h3>Volume</h3></a></td>
+                <td class="selecoes"><a style="text-decoration:none;" href="PaginaPeso.html"><h3>Peso</h3></a></td>
+                <td class="selecoes"><a style="text-decoration:none;" href="PaginaTempo.html"><h3>Tempo</h3></a></td>
+                <td class="selecoes"><a style="text-decoration:none;" href="PaginaMemória.html"><h3>Memória</h3></a></td>
+            </tr>
+        </table>
+
+
+    </header>
+    <div id="principalcontentor">
+        <content>
+            <div id="Conversao">
+                <fieldset id="caixa">
+                    <legend style="font-family:Arial; font-size:20px; font-weight:bold">Conversão de Densidade</legend>
+                    <table id="tabela">
+                        <tr>
+                            <td><b>Densidade: </b></td>  
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="inputDensidade" placeholder="Insira Densidade a Converter" /></td>
+                        </tr>
+                        <tr></tr><tr></tr><tr></tr>
+                        <tr>
+                            <td><b>De: </b></td><td></td><td><b>Para: </b></td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                <select  id="unidadesDensidadeDe">
+                                    <option value="c">Grau Celsius (°C)</option>
+                                    <option value="f">Grau Fahrenheit (°F)</option>
+                                    <option value="k">Grau Kelvin (K)</option>
+                                    <option value="n">Grau Newton (N)</option>
+                                    <option value="r">Grau Rankine (°Ra)</option>
+                                    <option value="re">Grau Réaumur (°Ré)</option>
+                                    <option value="ro">Grau RØmer (°RØ)</option>
+                                    <option value="de">Grau Delisle (°D)</option>               
+                                </select>
+                            </td>
+                            <td><img src="Imagens/change medidas.png" height="35px"></td>
+                            <td>
+                                
+                                <select id="unidadesDensidadePara">
+                                        <option value="c">Grau Celsius (°C)</option>
+                                        <option value="f">Grau Fahrenheit (°F)</option>
+                                        <option value="k">Grau Kelvin (K)</option>
+                                        <option value="n">Grau Newton (N)</option>
+                                        <option value="r">Grau Rankine (°Ra)</option>
+                                        <option value="re">Grau Réaumur (°Ré)</option>
+                                        <option value="ro">Grau RØmer (°RØ)</option>
+                                        <option value="de">Grau Delisle (°D)</option> 
+                                </select>
+                            </td>
+                        </tr>
+                        <tr></tr><tr></tr><tr></tr>
+                        
+                        <tr>
+                            <td><input class="nossosbotoes" type="button" id="btnCalculoPeso" value="Converter" onclick="calcularDensidade()" /></td> 
+                        </tr>
+                        <tr><td><h3>Resultado:</h3></td><td><input id="output" style="display:none" /></td></tr>
+                    </table>
+                </fieldset>
+            </div>
+        </content>
+    </div>
+    <footer>Copyright &copy 2018</footer>
+</body>
+</html>
